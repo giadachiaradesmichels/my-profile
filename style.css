@@ -68,3 +68,10 @@ div {
 .list-inline i {
 	font-size: 32px;
 }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
